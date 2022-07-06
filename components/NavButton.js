@@ -1,4 +1,4 @@
-import { IconButton, Box, Link, Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react"
+import { IconButton, Link, Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react"
 import { HamburgerIcon } from "@chakra-ui/icons"
 import NextLink from 'next/link'
 const NavButton = () => {

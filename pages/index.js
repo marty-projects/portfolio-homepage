@@ -11,12 +11,12 @@ const Page = () => {
     return ( 
 <Layout>
 <Container>
-        <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+        <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} mt={6} align="center">
             Hi, I&apos;m a front end developer based in EU!
         </Box>
         <Box display={{md: 'flex'}} align="center">
             <Box flexGrow={1}>
-                <Heading as="h2" variant="page-title">
+                <Heading as="h2" variant="page-title" fontFamily="Arial">
                     Martyna Chmielinska
                 </Heading>
             <p>Web developer with background in localization</p>
@@ -26,13 +26,13 @@ const Page = () => {
             </Box>
         </Box>
 <Section delay={0.1}>
-    <Heading as="h3" variant="section-title">
-    Projects
+    <Heading as="h3" variant="section-title" fontFamily="Arial">
+    About
     </Heading>
-    <Paragraph>Paragraph about self. Last project is{' '}
-        <NextLink href="/projects/tetris">
+    <Paragraph><br/>Self-taught web developer with passion for coding and learning. Actively looking for work as a front-end developer. Background in software and video game localization. Last project is a{' '}
+        <NextLink href="/projects/pacman">
         <Link>
-        Tetris
+        clone of Pacman
         </Link>
         </NextLink>
         .
@@ -44,41 +44,48 @@ const Page = () => {
         </Button>
     </NextLink>
 </Box>
+<Box align="center" my={4}>
+    <NextLink href="/pdf/Resume_M.Ch.pdf" target="_blank">
+        <Button rightIcon={<ChevronRightIcon/>} colorScheme="orange">
+            Download my resume
+        </Button>
+    </NextLink>
+</Box>
 </Section>
-<Section delay={0.2}>
-    <Heading as="h3" variant="section-title">
+<Section delay={0.2} >
+    <Heading as="h3" variant="section-title" fontFamily="Arial">
         Bio
     </Heading>
-    <BioSection>
+    <BioSection mb={2}>
     <BioYear>2017-2022</BioYear>
-    Work as a freelance translator (specialization: software translation)
+    Work as a freelance translator (specialization: software localization)
     </BioSection>
-    <BioSection>
+    <BioSection mb={2}>
     <BioYear>2019</BioYear>
     Completed the Master&apos;s Program at the Jagiellonian University in Krakow, Poland
     </BioSection>
     <BioSection>
-    <BioYear>2021-2022</BioYear>
+    <BioYear>2021-current</BioYear>
     Self-learning web development
     </BioSection>
 </Section>
 <Section delay={0.3}>
-    <Heading as="h3" variant="section-title">
+    <Heading as="h3" variant="section-title" fontFamily="Arial">
         Interests include...
     </Heading>
     <Paragraph>
-        video games, art and travelling
+    travelling, video games and art
     </Paragraph>
 </Section>
 <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
+        <Heading as="h3" variant="section-title" fontFamily="Arial">
             On the web
         </Heading>
         <List>
             <ListItem>
-                <Link href="http://github.com/monkert" target="_blank">
+                <Link href="http://github.com/marty-projects" target="_blank">
                     <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/>}
-                    >@monkert</Button>
+                    >@marty-projects</Button>
                 </Link>
             </ListItem>
             <ListItem>

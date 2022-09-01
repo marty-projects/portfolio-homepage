@@ -25,7 +25,7 @@ export const ProjectGridItem = ({children, id, title, thumbnail}) => (
         <NextLink href={`/projects/${id}`}>
             <LinkBox cursor="pointer">
                 <Image src={thumbnail} alt={title} className="grid-item-thumbnail"
-                placeholder="blur"/>
+                placeholder="blur" width="500px" height="500px"/>
                 <LinkOverlay href={`/projects/${id}`}>
                     <Text mt={2} fontSize={20}>
                         {title}

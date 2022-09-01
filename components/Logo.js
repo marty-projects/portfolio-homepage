@@ -25,6 +25,7 @@
             <Text
                 color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                 fontWeight="bold"
+                fontFamily="Arial"
                 ml={3}
                 >
                  Martyna Chmielinska   

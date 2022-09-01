@@ -6,23 +6,23 @@ import Layout from '../../components/layouts/Article'
 const Project = () => {
     return (
         <Layout title="Tetris">
-            <Container>
-                <Title>
-                    Tetris <Badge>2022</Badge>
-                </Title>
+            <Container mt={4}>
+                <Heading mt={6} mb={4} fontFamily="Arial" size="lg" align="center" >
+                    Pacman <Badge>2022</Badge>
+                </Heading>
                 <P>
-                    A clone of a classic. Build with React Hooks.
+                    Another clone of a classic game. Build with Vanilla JS.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://github.com/"> 
-                            https://github.com/
+                        <Link href="https://vanilla-js-pacman-clone.vercel.app/"> 
+                            https://vanilla-js-pacman-clone.vercel.app/
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                            <span>Node.js, React Hooks</span>
+                            <span>Node.js, Vanilla JS</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Based on</Meta>
@@ -31,8 +31,8 @@ const Project = () => {
                         </Link>
                     </ListItem>
                 </List>
-                <ProjectImage src="/images/projects/tetris-placeholder.png" alt="Tetris clone"/>
-                <ProjectImage src="/images/projects/tetris-placeholder.png" alt="Tetris clone"/>
+                <ProjectImage src="/images/projects/pacman2.png" alt="Tetris clone"/>
+                <ProjectImage src="/images/projects/pacman3.png" alt="Tetris clone"/>
             </Container>
         </Layout>
     )

@@ -7,6 +7,7 @@ const NavButton = () => {
                             {console.log('works')}
                             <MenuButton 
                             as={IconButton} 
+                            borderColor='white'
                             icon={<HamburgerIcon />} 
                             variant="outline" 
                             aria-label="Options" 

@@ -2,7 +2,7 @@ import { Container, Heading, SimpleGrid} from '@chakra-ui/react'
 import Section from '../components/Section'
 import { ProjectGridItem } from '../components/GridItem'
 import thumbTetris from '../public/images/projects/tetris-1.jpeg'
-import thumbPacman from '../public/images/projects/pacman1.png'
+import thumbPacman from '../public/images/projects/pacman1.jpeg'
 import thumbWeather from '../public/images/projects/weather-placeholder.png'
 import Layout from '../components/layouts/Article'
 

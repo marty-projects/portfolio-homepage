@@ -21,8 +21,8 @@ export const Title = ({children}) => {
 export const ProjectImage = ({ src, alt}) => (
     <Image 
     borderRadius="lg" 
-    w="500" 
-    h="500" 
+    w="300px" 
+    h="400px"
     src={src} 
     alt={alt}
     mb={4} />

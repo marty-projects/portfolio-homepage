@@ -19,8 +19,11 @@ const NavButton = () => {
                                 <NextLink href="/projects" passHref>
                                     <MenuItem as={Link}>Projects</MenuItem>
                                 </NextLink>
-                                <NextLink href="http://www.github.com" passHref>
+                                <NextLink href="https://github.com/marty-projects/portfolio-homepage" passHref>
                                     <MenuItem as={Link}>View Source</MenuItem>
+                                </NextLink>
+                                <NextLink href="https://github.com/craftzdog/craftzdog-homepage" passHref>
+                                    <MenuItem as={Link}>Based on</MenuItem>
                                 </NextLink>
                             </MenuList>
                         </Menu>

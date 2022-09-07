@@ -31,8 +31,10 @@ const Project = () => {
                         </Link>
                     </ListItem>
                 </List>
+                <Container align="center">
                 <ProjectImage src="/images/projects/tetris-2.jpeg" alt="Tetris clone gameplay"/>
-                <ProjectImage src="/images/projects/tetris-3.jpeg" alt="Tetris clone gameplay"/>
+                <ProjectImage  src="/images/projects/tetris-3.jpeg" alt="Tetris clone gameplay"/>
+                </Container>
             </Container>
         </Layout>
     )

@@ -17,7 +17,7 @@ const Project = () => {
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link href="https://vanilla-js-pacman-clone.vercel.app/"> 
-                            https://vanilla-js-pacman-clone.vercel.app/
+                            Click here
                         </Link>
                     </ListItem>
                     <ListItem>
@@ -26,13 +26,15 @@ const Project = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Based on</Meta>
-                        <Link href="https://github.com/">
+                        <Link href="https://github.com/weibenfalk/vanilla-js-pacman">
                             This tutorial
                         </Link>
                     </ListItem>
                 </List>
-                <ProjectImage src="/images/projects/pacman2.png" alt="Tetris clone"/>
-                <ProjectImage src="/images/projects/pacman3.png" alt="Tetris clone"/>
+                <Container align="center">
+                <ProjectImage src="/images/projects/pacman2.jpeg" alt="Pacman clone"/>
+                <ProjectImage src="/images/projects/pacman3.jpeg" alt="Pacman clone"/>
+                </Container>
             </Container>
         </Layout>
     )

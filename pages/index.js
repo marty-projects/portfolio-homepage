@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import {Button, Container, Box, Heading, Image, Link, List, ListItem, Icon, useColorModeValue } from '@chakra-ui/react'
+import {Button, Container, Box, Heading, Image, Link, List, ListItem, Icon, useColorModeValue, Footer } from '@chakra-ui/react'
 import Section from '../components/Section'
 import Paragraph from '../components/Paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -31,7 +31,7 @@ const Page = () => {
     </Heading>
     <Paragraph><br/>Self-taught web developer with passion for coding and learning. Actively looking for work as a front-end developer. Background in software and video game localization. Last project is a{' '}
         <NextLink href="/projects/pacman">
-        <Link>
+        <Link textColor="teal">
         clone of Pacman
         </Link>
         </NextLink>
@@ -96,6 +96,11 @@ const Page = () => {
             </ListItem>
         </List>
 </Section>
+</Container>
+<Container as="footer" centerContent="true" mt={5}>
+        <Link href="https://www.craftz.dog/" target="_blank" textColor="teal">
+        Based on
+        </Link>
 </Container>
 </Layout>
  )}

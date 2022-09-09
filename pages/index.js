@@ -89,7 +89,7 @@ const Page = () => {
                 </Link>
             </ListItem>
             <ListItem>
-                <Link href="http://linkedin.com" target="_blank">
+                <Link href="http://linkedin.com/in/martyna-chmielińska" target="_blank">
                     <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin}/>}
                     >Martyna Chmielinska</Button>
                 </Link>

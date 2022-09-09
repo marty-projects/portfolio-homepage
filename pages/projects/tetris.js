@@ -17,7 +17,7 @@ const Project = () => {
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link href="https://tetris-final.vercel.app/"> 
-                            https://tetris-final.vercel.app/
+                            Click here
                         </Link>
                     </ListItem>
                     <ListItem>

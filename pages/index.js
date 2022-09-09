@@ -12,7 +12,7 @@ const Page = () => {
 <Layout>
 <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} mt={6} align="center">
-            Front end developer based in EU
+            Hi, I&apos;m a front end developer based in EU!
         </Box>
         <Box display={{md: 'flex'}} align="center">
             <Box flexGrow={1}>

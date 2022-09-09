@@ -12,7 +12,7 @@ const Page = () => {
 <Layout>
 <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} mt={6} align="center">
-            Hi, I&apos;m a front end developer based in EU!
+            Front end developer based in EU
         </Box>
         <Box display={{md: 'flex'}} align="center">
             <Box flexGrow={1}>
@@ -45,7 +45,7 @@ const Page = () => {
     </NextLink>
 </Box>
 <Box align="center" my={4}>
-    <NextLink href="/pdf/Resume_M.Ch.pdf" target="_blank">
+    <NextLink href="/pdf/Resume_EN.pdf" target="_blank">
         <Button rightIcon={<ChevronRightIcon/>} colorScheme="orange">
             Download my resume
         </Button>

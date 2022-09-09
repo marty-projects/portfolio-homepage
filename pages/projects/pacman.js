@@ -22,7 +22,7 @@ const Project = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                            <span>Node.js, Vanilla JS</span>
+                            <span>Vanilla JS, CSS, HTML</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Based on</Meta>

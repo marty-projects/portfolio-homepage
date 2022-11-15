@@ -29,6 +29,16 @@ const Projects = () => {
                       A simple weather forecast app
                     </ProjectGridItem>
                 </Section>
+                <Section>
+                    <ProjectGridItem id="ecommerce" title="E-commerce">
+                      Mock e-commerce website made in React.js.
+                    </ProjectGridItem>
+                </Section>
+                <Section>
+                    <ProjectGridItem id="" title="PHP">
+                      Projects created while learning PHP, work in progress.
+                    </ProjectGridItem>
+                </Section>
             </SimpleGrid>
         </Container>
     </Layout>

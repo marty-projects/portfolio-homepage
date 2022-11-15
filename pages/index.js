@@ -30,9 +30,9 @@ const Page = () => {
     About
     </Heading>
     <Paragraph><br/>Self-taught web developer with passion for coding and learning. Actively looking for work as a front-end developer. Background in software and video game localization. Last project is a{' '}
-        <NextLink href="/projects/pacman">
+        <NextLink href="/mock-ecommerce">
         <Link textColor="teal">
-        clone of Pacman
+        mock eCommerce website build with SASS.
         </Link>
         </NextLink>
         .

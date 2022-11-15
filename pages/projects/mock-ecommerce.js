@@ -25,7 +25,7 @@ const Project = () => {
                         <Meta>Stack</Meta>
                             <span>React.js, SASS, React Router</span>
                     </ListItem>
-                    <br/><br/>
+                    <br/>
                     <ListItem>
                         <Meta>Based on</Meta>
                         <Link href="https://www.youtube.com/watch?v=grYcHEQU0Vc&t=4210s">

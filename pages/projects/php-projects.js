@@ -19,6 +19,7 @@ const Project = () => {
                         <Link href="https://github.com/marty-projects/php-project"> 
                             Click here
                         </Link>
+                        <br/>
                         <Meta>Code (login system)</Meta>
                         <Link href="https://github.com/marty-projects/php-login-system"> 
                             Click here
@@ -32,6 +33,7 @@ const Project = () => {
                         <Meta>Based on</Meta>
                         <Link href="https://www.youtube.com/watch?v=BUCiSSyIGGU">
                         Click here</Link>
+                        <br/>
                         <Link href="https://www.youtube.com/watch?v=gCo6JqGMi30&t=2520s">
                         Click here</Link>
                     </ListItem>

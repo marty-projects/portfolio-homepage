@@ -22,7 +22,7 @@ export const ProjectImage = ({ src, alt}) => (
     <Image 
     borderRadius="lg" 
     w="150px" 
-    h="180px"
+    h="200px"
     src={src} 
     alt={alt}
     mb={4} />

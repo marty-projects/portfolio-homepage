@@ -13,6 +13,7 @@ const Project = () => {
                 <P>
                     Mock e-commerce website with basic functionalities.
                 </P>
+                <List ml={4} my={4}>
                 <ListItem>
                         <Meta>Code</Meta>
                         <Link href="https://github.com/marty-projects/sass-ecommerce">
@@ -30,6 +31,7 @@ const Project = () => {
                             This tutorial (changed routing and some CSS)
                         </Link>
                     </ListItem>
+                    </List>
                 </List>
             </Container>
         </Layout>

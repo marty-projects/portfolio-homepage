@@ -30,12 +30,12 @@ const Projects = () => {
                     </ProjectGridItem>
                 </Section>
                 <Section>
-                    <ProjectGridItem id="ecommerce" title="E-commerce">
+                    <ProjectGridItem id="mock-ecommerce" title="E-commerce">
                       Mock e-commerce website made in React.js.
                     </ProjectGridItem>
                 </Section>
                 <Section>
-                    <ProjectGridItem id="php" title="PHP">
+                    <ProjectGridItem id="php-projects" title="PHP">
                       Projects created while learning PHP, work in progress.
                     </ProjectGridItem>
                 </Section>

@@ -36,7 +36,7 @@ const Projects = () => {
                 </Section>
                 <Section>
                     <ProjectGridItem id="php-projects" title="PHP">
-                      Projects created while learning PHP, work in progress.
+                      Projects created while learning PHP. Work in progress.
                     </ProjectGridItem>
                 </Section>
             </SimpleGrid>

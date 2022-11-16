@@ -19,6 +19,7 @@ const LinkItem =({href, path, children}) => {
         <NextLink href={href}>
             <Link
             p={2}
+            borderRadius={10}
             bg={active ? 'glassTeal': undefined}
             color={active ? '#202023': inactiveColor}>
                 {children}

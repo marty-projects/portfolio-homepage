@@ -15,8 +15,8 @@ const Project = () => {
                 </P>
                 <List ml={4} my={4}>
                 <ListItem>
-                        <Meta>Code</Meta>
-                        <Link href="https://github.com/marty-projects/sass-ecommerce">
+                        <Meta>Website</Meta>
+                        <Link href="https://sass-ecommerce-bxxz.vercel.app/">
                         Click here
                         </Link>
                     </ListItem>

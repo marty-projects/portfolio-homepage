@@ -8,13 +8,13 @@ const Project = () => {
         <Layout title="Ecommerce">
             <Container mt={4}>
                 <Heading mt={6} mb={4} fontFamily="Arial" size="lg" align="center" >
-                    Mock e-commerce website <Badge>2022</Badge>
+                    E-commerce landing page <Badge>2022</Badge>
                 </Heading>
                 <P>
-                    Mock e-commerce website with basic functionalities.
+                    Mock e-commerce landing page with basic functionalities.
                 </P>
                 <List ml={4} my={4}>
-                <ListItem>
+                    <ListItem>
                         <Meta>Website</Meta>
                         <Link href="https://sass-ecommerce-bxxz.vercel.app/">
                         Click here

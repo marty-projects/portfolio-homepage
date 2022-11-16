@@ -20,12 +20,10 @@ const Project = () => {
                         Click here
                         </Link>
                     </ListItem>
-                <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Stack</Meta>
                             <span>React.js, SASS, React Router</span>
                     </ListItem>
-                    <br/>
                     <ListItem>
                         <Meta>Based on</Meta>
                         <Link href="https://www.youtube.com/watch?v=grYcHEQU0Vc&t=4210s">
@@ -33,7 +31,6 @@ const Project = () => {
                         </Link>
                     </ListItem>
                     </List>
-                </List>
             </Container>
         </Layout>
     )

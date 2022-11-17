@@ -31,7 +31,7 @@ const Projects = () => {
                 </Section>
                 <Section>
                     <ProjectGridItem id="mock-ecommerce" title="E-commerce">
-                      Mock e-commerce landing page made in React.js.
+                      Mock respinsive e-commerce landing page made in React.js.
                     </ProjectGridItem>
                 </Section>
                 <Section>

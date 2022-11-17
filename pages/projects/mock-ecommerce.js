@@ -27,7 +27,7 @@ const Project = () => {
                     <ListItem>
                         <Meta>Based on</Meta>
                         <Link href="https://www.youtube.com/watch?v=grYcHEQU0Vc&t=4210s">
-                            This tutorial (changed routing and some CSS)
+                            This tutorial (changed routing and added responsive styles)
                         </Link>
                     </ListItem>
                     </List>

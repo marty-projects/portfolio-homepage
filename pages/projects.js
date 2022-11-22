@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid} from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Link, Button, Icon} from '@chakra-ui/react'
 import Section from '../components/Section'
 import { ProjectGridItem } from '../components/GridItem'
 import thumbTetris from '../public/images/projects/tetris-1.jpeg'
@@ -37,7 +37,7 @@ const Projects = () => {
                 <Section>
                 <Link href="http://github.com/marty-projects" target="_blank">
                     <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/>}
-                    >See what I'm working on right now</Button>
+                    >See what I&apos;m working on right now</Button>
                 </Link>
                 </Section>
             </SimpleGrid>

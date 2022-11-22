@@ -5,6 +5,7 @@ import thumbTetris from '../public/images/projects/tetris-1.jpeg'
 import thumbPacman from '../public/images/projects/pacman1.jpeg'
 import thumbWeather from '../public/images/projects/weather1.jpeg'
 import Layout from '../components/layouts/Article'
+import {IoLogoGithub} from 'react-icons/io5'
 
 const Projects = () => {
     return (

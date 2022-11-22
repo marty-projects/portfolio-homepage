@@ -31,13 +31,14 @@ const Projects = () => {
                 </Section>
                 <Section>
                     <ProjectGridItem id="mock-ecommerce" title="E-commerce">
-                      Mock respinsive e-commerce landing page made in React.js.
+                      Mock responsive e-commerce landing page made in React.js.
                     </ProjectGridItem>
                 </Section>
                 <Section>
-                    <ProjectGridItem id="php-projects" title="PHP">
-                      Projects created while learning PHP. Work in progress.
-                    </ProjectGridItem>
+                <Link href="http://github.com/marty-projects" target="_blank">
+                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/>}
+                    >See what I'm working on right now</Button>
+                </Link>
                 </Section>
             </SimpleGrid>
         </Container>

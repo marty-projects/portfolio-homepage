@@ -30,17 +30,15 @@ const Page = () => {
     About
     </Heading>
     <Paragraph><br/>Self-taught web developer with background in website and software regionalization. Actively looking for work as a frontend/fullstack developer. Currently, I focus mainly on JavaScript (React and Vue, TypeScript), but I&apos;m also interested in Python (Flask) and PHP. Recent finished projects are a{' '}
-        <NextLink href="/mock-ecommerce">
+        <NextLink href="/projects/mock-ecommerce">
         <Link textColor="teal">
         mock eCommerce responsive landing website, build with React and SASS
         </Link>
         </NextLink>
         {' '}and a{' '}
-        <NextLink href="https://github.com/marty-projects/ts-react-shoppingcart">
-        <Link textColor="teal">
+        <Link href="https://github.com/marty-projects/ts-react-shoppingcart" target="_blank" textColor="teal">
         shopping cart build with React/TypeScript and Bootstrap
         </Link>
-        </NextLink>
         .
     </Paragraph>
 <Box align="center" my={4}>

@@ -5,7 +5,7 @@ import Layout from '../../components/layouts/Article'
 
 const Project = () => {
     return (
-        <Layout title="Ecommerce">
+        <Layout title="E-commerce">
             <Container mt={4}>
                 <Heading mt={6} mb={4} fontFamily="Arial" size="lg" align="center" >
                     E-commerce landing page <Badge>2022</Badge>

@@ -12,14 +12,14 @@ const Page = () => {
 <Layout>
 <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} mt={6} align="center">
-            Front end developer based in EU
+            Frontend developer based in EU
         </Box>
         <Box display={{md: 'flex'}} align="center">
             <Box flexGrow={1}>
                 <Heading as="h2" variant="page-title" fontFamily="Arial">
                     Martyna Chmielinska
                 </Heading>
-            <p>Web developer with background in localization</p>
+            <p>Web developer with background in software localization</p>
             </Box>
             <Box flexShrink={0} mt={{base: 4, md:0}} ml={{md:6}} align="center">
                 <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="full" src="/images/avatar.jpg" alt="Profile image"/>
@@ -29,10 +29,16 @@ const Page = () => {
     <Heading as="h3" variant="section-title" fontFamily="Arial">
     About
     </Heading>
-    <Paragraph><br/>Self-taught web developer with passion for coding and learning. Actively looking for work as a front-end developer. Background in software and video game localization. Last project is a{' '}
+    <Paragraph><br/>Self-taught web developer with background in website and software regionalization. Actively looking for work as a frontend/fullstack developer. Currently, I focus mainly on JavaScript (React and Vue, TypeScript), but I&apos;m also interested in Python (Flask) and PHP. Recent finished projects are a{' '}
         <NextLink href="/mock-ecommerce">
         <Link textColor="teal">
-        mock eCommerce website build with SASS.
+        mock eCommerce responsive landing website, build with React and SASS
+        </Link>
+        </NextLink>
+        and a{' '}
+        <NextLink href="https://github.com/marty-projects/ts-react-shoppingcart">
+        <Link textColor="teal">
+        shopping cart, build with React/TypeScript and Bootstrap
         </Link>
         </NextLink>
         .
@@ -65,8 +71,8 @@ const Page = () => {
     Completed the Master&apos;s Program at the Jagiellonian University in Krakow, Poland
     </BioSection>
     <BioSection>
-    <BioYear>2021-current</BioYear>
-    Self-learning web development
+    <BioYear>2020-current</BioYear>
+    Started learning web development
     </BioSection>
 </Section>
 <Section delay={0.3}>

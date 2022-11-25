@@ -78,7 +78,7 @@ const Page = () => {
 </Section>
 <Section delay={0.3}>
         <Heading as="h3" variant="section-title" fontFamily="Arial">
-            On the web
+            Learn more
         </Heading>
         <List>
             <ListItem>

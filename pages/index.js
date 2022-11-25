@@ -35,21 +35,14 @@ const Page = () => {
         mock eCommerce responsive landing website, build with React and SASS
         </Link>
         </NextLink>
-        and a{' '}
+        {' '}and a{' '}
         <NextLink href="https://github.com/marty-projects/ts-react-shoppingcart">
         <Link textColor="teal">
-        shopping cart, build with React/TypeScript and Bootstrap
+        shopping cart build with React/TypeScript and Bootstrap
         </Link>
         </NextLink>
         .
     </Paragraph>
-<Box align="center" my={4}>
-    <NextLink href="/projects">
-        <Button rightIcon={<ChevronRightIcon/>} colorScheme="orange">
-            My portfolio
-        </Button>
-    </NextLink>
-</Box>
 <Box align="center" my={4}>
     <NextLink href="/pdf/Resume_EN.pdf" target="_blank">
         <Button rightIcon={<ChevronRightIcon/>} colorScheme="orange">
